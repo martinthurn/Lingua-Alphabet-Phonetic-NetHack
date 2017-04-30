@@ -1,5 +1,8 @@
 
-# $Id: NetHack.pm,v 1.8 2008/09/21 13:37:22 Martin Exp $
+package Lingua::Alphabet::Phonetic::NetHack;
+
+use strict;
+use warnings;
 
 =head1 NAME
 
@@ -37,14 +40,9 @@ This software is released under the same license as Perl itself.
 
 #####################################################################
 
-package Lingua::Alphabet::Phonetic::NetHack;
-
-use strict;
-use warnings;
-
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.8 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = 1.801;
 
 # First, the punctuation:
 my %hash = (
